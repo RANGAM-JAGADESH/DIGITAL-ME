@@ -1,0 +1,15 @@
+# EXTRA FACTS FROM MY DRIVE RESUME PDF
+
+## Education timeline
+JAGADESHis doing a B.Tech in Computer Science and Engineering with a specialization in Artificial Intelligence at Vemu Institute of Technology. He joined through lateral entry after his diploma, and the B.Tech runs from 2024 to 2027. His B.Tech CGPA is 9.21.
+Before that he completed a Diploma in Computer Science and Engineering at Priyadharshini Institute of Technology and Management from 2021 to 2024, scoring 85.94 percent.
+
+## Career objective
+JAGADESH is a Computer Science undergraduate specializing in Artificial Intelligence, with hands-on backend development experience in Python and Django. He designs REST APIs, works with SQL-based data models, and applies data structures and algorithms to build efficient and reliable systems. He has a solid grounding in system design and distributed systems, gained through independent projects involving consensus algorithms and fault-tolerant architectures. He wants to build scalable, high-performance backend applications.
+
+## Online profiles
+GitHub: github.com/RANGAM-JAGADESH
+LinkedIn: linkedin.com/in/rangam-jagadesh-b88b42358
+
+## Complete list of projects
+JAGADESHhas built these projects: Distributed Key-Value Store (Raft consensus), MyRedis Clone (Redis-inspired distributed database), SearchX (Elasticsearch search engine backend), Smart Load Balancer, TripMate AI (multi-agent travel planner), Webhook Payment Simulator (FakePay and MyShop), CI/CD TestFlow (testing and GitHub Actions pipeline), Hand Cricket Game, and a Ticket Booking application using Tkinter.

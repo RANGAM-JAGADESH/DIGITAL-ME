@@ -1,0 +1,17 @@
+.git
+.gitignore
+**/.venv
+**/__pycache__
+**/*.pyc
+**/.env
+**/.env.local
+frontend
+voice-service
+data/voice
+data/avatar
+backend/scripts
+backend/sql
+*.zip
+*.wav
+*.mp4
+README.md

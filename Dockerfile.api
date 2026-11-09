@@ -1,0 +1,26 @@
+# Backend image for Render (or any Docker host). Build from the project root:
+#   docker build -f Dockerfile.api -t digital-me-api .
+FROM python:3.11-slim
+
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PIP_NO_CACHE_DIR=1 \
+    FASTEMBED_CACHE_PATH=/srv/models \
+    PORT=8000
+
+WORKDIR /srv
+
+COPY backend/requirements.txt backend/requirements.txt
+RUN pip install -r backend/requirements.txt
+
+# download the embedding model at build time so the first visitor doesn't wait for it
+RUN python -c "from fastembed import TextEmbedding; TextEmbedding(model_name='sentence-transformers/all-MiniLM-L6-v2')"
+
+COPY backend/app backend/app
+COPY data/style.txt data/style.txt
+
+WORKDIR /srv/backend
+EXPOSE 8000
+
+# --proxy-headers lets the rate limiter see each visitor's real address behind the host's proxy
+CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT} --proxy-headers --forwarded-allow-ips='*'"]

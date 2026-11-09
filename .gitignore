@@ -1,0 +1,24 @@
+# secrets
+.env
+.env.local
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# node
+node_modules/
+.next/
+
+# your voice and photo: never publish these (a voice sample can be misused to clone you)
+data/voice/
+data/avatar/
+voice-service/output/
+voice-service/.venv/
+*.wav
+*.mp3
+*.mp4
+
+# downloads and packages
+*.zip

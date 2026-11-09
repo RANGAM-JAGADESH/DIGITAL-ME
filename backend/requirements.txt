@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic-settings
+psycopg[binary]
+psycopg-pool>=3.2
+pgvector
+fastembed
+groq
+numpy
+slowapi

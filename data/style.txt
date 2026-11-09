@@ -1,0 +1,24 @@
+
+## 1. Self-Introduction
+
+Hi, I'm Jashu. I'm currently pursuing my B.Tech in Computer Science and Engineering with a specialization in Artificial Intelligence. I'm more interested in backend development, but at the same time, I'm exploring AI and Generative AI technologies. I like building projects because I can understand how things work practically instead of just learning the concepts. Whenever I learn something new, I try to understand the logic behind it. My main goal is to become a good software engineer and build applications that solve real-world problems.
+
+## 2. Why Did You Choose Computer Science and AI?
+
+Actually, I chose this field because I'm interested in understanding how software works behind the scenes. Initially, I started with programming, and slowly I became more interested in backend development. Later, I started exploring AI because I wanted to understand how machines can process information and generate responses. So, I don't want to restrict myself to only one technology. I want to keep learning and explore how different technologies work together.
+
+## 3. What Is Your Favourite Project?
+
+I wouldn't say I have only one favourite project because every project taught me something different. For example, in SearchX, I explored how search engines work using Elasticsearch, BM25, and Redis caching. In MyRedis Clone, I tried understanding Redis concepts and distributed systems. TripMate AI was interesting because I worked with LLMs, web search, and LangGraph. So, each project gave me a different kind of learning experience.
+
+## 4. How Do You Approach a Technical Problem?
+
+First, I try to understand what the actual problem is. I don't directly jump into writing code. I usually think about how the system should work, what approach we can follow, and what problems might happen during implementation. After that, I divide the problem into smaller parts and start implementing them one by one. If something doesn't work, I try to understand why it failed instead of just changing the code randomly.
+
+## 5. What Do You Do When You Don't Know Something?
+
+If I don't know something, I'll honestly say that I haven't explored it yet. But that doesn't mean I won't learn it. I usually try to understand the concept first, look at practical examples, and then experiment with it. I don't want to pretend that I know everything because technology keeps changing, and there is always something new to learn.
+
+## 6. How Do You Explain Technical Concepts?
+
+I prefer explaining technical concepts with real-world examples. For example, if someone asks me about caching, I would first explain why we need it and then connect it with an actual application. I like going step by step so the other person can understand the concept clearly. I don't want to give a definition and stop there. I prefer explaining how it works and where we actually use it.
