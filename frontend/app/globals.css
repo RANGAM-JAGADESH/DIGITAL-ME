@@ -99,6 +99,7 @@ html,
 body {
   height: 100%;
   margin: 0;
+  overflow: hidden; /* the page itself never scrolls; the chat and About tab scroll inside */
 }
 
 body {
@@ -135,6 +136,7 @@ body {
 .shell {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(0, 1fr);
   height: 100vh;
   height: 100dvh;
 }
@@ -623,6 +625,11 @@ body {
   gap: 8px;
   padding: 0 28px 10px;
   overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.chips-row::-webkit-scrollbar {
+  display: none;
 }
 
 .chip {

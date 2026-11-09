@@ -7,7 +7,7 @@ export const EMOTIONS = {
   neutral:    { label: "Calm",     browL: 0,   browR: 0,   tilt: 0,  eye: "open",   ry: 12, smile: 7,  cheeks: 0,    head: 0,  gaze: [0, 0] },
   happy:      { label: "Happy",    browL: -4,  browR: -4,  tilt: 3,  eye: "smile",  ry: 12, smile: 18, cheeks: 0.55, head: 2,  gaze: [0, 0] },
   excited:    { label: "Excited",  browL: -11, browR: -11, tilt: 4,  eye: "wide",   ry: 15, smile: 20, cheeks: 0.5,  head: 0,  gaze: [0, -1] },
-  thoughtful: { label: "Thinking", browL: -1,  browR: -10, tilt: 2,  eye: "open",   ry: 12, smile: 1,  cheeks: 0,    head: -4, gaze: [6, -5] },
+  thoughtful: { label: "Thoughtful", browL: -1,  browR: -10, tilt: 2,  eye: "open",   ry: 12, smile: 1,  cheeks: 0,    head: -4, gaze: [6, -5] },
   serious:    { label: "Serious",  browL: 3,   browR: 3,   tilt: -8, eye: "narrow", ry: 9,  smile: -3, cheeks: 0,    head: 0,  gaze: [0, 1] },
 };
 
