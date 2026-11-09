@@ -1,3 +1,4 @@
+import threading
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, HTTPException, Request
@@ -18,15 +19,20 @@ from app.service import ServiceBusy, answer
 limiter = Limiter(key_func=get_remote_address)
 
 
-@asynccontextmanager
-async def lifespan(_app: FastAPI):
-    # load the embedding model and open a database connection before the first visitor arrives
+def _warm_up():
     try:
         embed(["warm up"])
         with get_conn() as conn:
             conn.execute("select 1")
-    except Exception as exc:  # the API can still start; the first request will retry
+    except Exception as exc:  # the API still works; the first request will retry
         print(f"startup warm-up skipped: {exc}")
+
+
+@asynccontextmanager
+async def lifespan(_app: FastAPI):
+    # load the embedding model and open the database pool in the background, so the server
+    # starts listening at once even on a slow free CPU
+    threading.Thread(target=_warm_up, daemon=True).start()
     yield
 
 
