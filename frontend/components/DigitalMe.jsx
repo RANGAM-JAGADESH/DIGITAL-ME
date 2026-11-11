@@ -446,7 +446,7 @@ export default function DigitalMe() {
             ref={inputRef}
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Ask me anything about my work…"
+            placeholder="Ask me anything…"
             maxLength={500}
             aria-label="Your question"
             autoComplete="off"
