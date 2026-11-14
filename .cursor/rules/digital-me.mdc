@@ -1,0 +1,9 @@
+---
+description: Digital Me project rules
+alwaysApply: true
+---
+Read docs/PROJECT_BRIEF.md before changing code.
+Zero cost: free tiers only. Public repo: never commit secrets, voice or photo files.
+The avatar answers only from the owner's documents and always discloses it is an AI.
+Never mention the TruthLens project. Never change the embedding model without re-ingesting.
+Windows PowerShell: give commands as .\script.bat. Ask before design decisions.

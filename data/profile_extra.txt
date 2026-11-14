@@ -10,6 +10,7 @@ JAGADESH is a Computer Science undergraduate specializing in Artificial Intellig
 ## Online profiles
 GitHub: github.com/RANGAM-JAGADESH
 LinkedIn: linkedin.com/in/rangam-jagadesh-b88b42358
+Email: jashu9392@gmail.com
 
 ## Complete list of projects
 JAGADESHhas built these projects: Distributed Key-Value Store (Raft consensus), MyRedis Clone (Redis-inspired distributed database), SearchX (Elasticsearch search engine backend), Smart Load Balancer, TripMate AI (multi-agent travel planner), Webhook Payment Simulator (FakePay and MyShop), CI/CD TestFlow (testing and GitHub Actions pipeline), Hand Cricket Game, and a Ticket Booking application using Tkinter.
