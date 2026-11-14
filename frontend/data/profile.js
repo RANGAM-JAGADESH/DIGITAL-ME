@@ -155,5 +155,6 @@ export const profile = {
   links: [
     { label: "GitHub", href: "https://github.com/RANGAM-JAGADESH" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/rangam-jagadesh-b88b42358" },
+    { label: "Email", href: "mailto:jashu9392@gmail.com" },
   ],
 };
