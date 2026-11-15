@@ -22,3 +22,6 @@ voice-service/.venv/
 
 # downloads and packages
 *.zip
+
+
+*.m4a
